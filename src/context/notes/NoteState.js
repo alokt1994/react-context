@@ -3,16 +3,16 @@ import NoteContext from "./noteContext";
 
 const NoteState = (props) => {
   const s1 = {
-    name: "Vibhor Sir",
+    name: "Hi 👋",
   };
   const [state, setState] = useState(s1);
 
   const update = () => {
     setTimeout(() => {
       setState({
-        name: "Amol Sir",
+        name: "Bye 👋",
       });
-    }, 1000);
+    }, 2000);
   };
   return (
     <NoteContext.Provider value={{ state, update }}>

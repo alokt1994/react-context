@@ -8,7 +8,7 @@ export default function ExampleContext() {
   });
   return (
     <section>
-      <h1>Fetch value using context: {a.state.name} 😂😂😂</h1>
+      <h1>Fetch value using context: {a.state.name}</h1>
     </section>
   );
 }
